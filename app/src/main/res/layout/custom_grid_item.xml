@@ -4,9 +4,23 @@
     android:padding="3dp">
 
     <ImageView
-        android:id="@+id/os_images"
+        android:id="@+id/image"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+         />
+
+    <TextView
+        android:id="@+id/info"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-         />
+        android:text="India"
+        android:textStyle="normal"
+        android:textColor="@color/fb_color"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_below="@+id/image"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:visibility="gone"/>
 
 </RelativeLayout>
